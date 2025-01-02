@@ -99,8 +99,9 @@ Open a Rosetta Terminal:
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-Follow the prompts, and ensure it installs under /usr/local.
 ```
+
+Follow the prompts, and ensure it installs under /usr/local.
 
 ### Step 3 - Code-Sign GDB 🛡️
 
