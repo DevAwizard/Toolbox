@@ -25,6 +25,7 @@ Whether you’re just starting your Neovim journey or looking for inspiration, t
    - [Step 2: Install Homebrew (If You Don’t Have It)](#-step-2-install-homebrew-if-you-dont-have-it)
    - [Step 3: Install Neovim](#-step-3-install-neovim)
    - [Step 4: Enable or Install a Coding Font (Optional but Recommended)](#-step-4-enable-or-install-a-coding-font-optional-but-recommended)
+   - [Step 5: Install Ripgrep (Recommended for Search](#step-5-install-ripgrep-recommended-for-search)
 
 ## Installing Initial Tools
 
@@ -138,9 +139,9 @@ If you’re using iTerm2, many popular coding fonts (like Nerd Fonts) are alread
    - `Fira Code Nerd Font` (great with ligatures).
    - `Hack Nerd Font` (clean and simple).
 
-3. Download the .zip file for your chosen font.
+3. Download the `.zip file` for your chosen font.
 
-4. Extract the .zip file.
+4. Extract the `.zip file`.
 
 5. Double-click the .ttf files to install them on your system.
 
@@ -154,6 +155,31 @@ Whether you used a preinstalled font or manually installed one, follow these ste
 1. Open your terminal preferences (e.g., iTerm2 or Terminal).
 2.  Navigate to the Profiles or Appearance section.
 3.  Change the font to your installed font (e.g., JetBrains Mono Nerd Font, MesloLGS NF).
+
+
+### 🛠 Step 5: Install Ripgrep (Recommended for Search)
+
+Ripgrep (often abbreviated as rg) is a fast and modern search tool that works seamlessly with Neovim plugins like Telescope for finding files or text within projects.
+
+Install Ripgrep:
+
+Use Homebrew to install it:
+```sh
+brew install ripgrep
+```
+Verify Installation:
+
+After installation, confirm that it’s installed by running:
+```sh
+rg --version
+```
+You should see output similar to this:
+```sh
+ripgrep 13.0.0
+```
+Why Ripgrep?
+- Speed: It’s significantly faster than traditional search tools like grep.
+- Integration: Many Neovim plugins, such as Telescope, rely on ripgrep for their search functionality.
 
 
 
