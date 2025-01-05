@@ -28,7 +28,7 @@ Whether you’re just starting your Neovim journey or looking for inspiration, t
    - [Step 5: Install Ripgrep (Recommended for Search)](#-step-5-install-ripgrep-recommended-for-search)
    - [Step 6: Install Node (Recommended for Plugin Support)](#-step-6-install-node-recommended-for-plugin-support)
    - [Step 7: Create the config_nvim Folder](#-step-7-create-the-config_nvim-folder)
-
+   - [Step 8: Create the Used Folders and Files](#-step-8-create-the-used-folders-and-files)
 
 
 ## Installing Initial Tools
@@ -275,6 +275,95 @@ mkdir -p ~/.config/nvim
 ```
 
 The `-p` flag ensures that both .config and nvim are created if they don’t already exist. 🛡️
+
+### 📂 Step 8: Create the Used Folders and Files
+
+In this step, you will create the necessary folders and files for organizing your Neovim configuration.
+
+🗂️ Folder and File Structure
+
+You need to create the following structure inside the ~/.config/nvim directory:
+```sh
+~/.config/nvim/
+├── lua/
+│   └── username/
+│       ├── core/
+│       └── plugins/
+├── plugin/
+└── init.lua
+```
+#### 👣 Steps to Create the Structure
+1. Navigate to the ~/.config/nvim directory:
+
+```sh
+cd ~/.config/nvim
+```
+
+2. Create the lua/username folder:
+
+Replace username with your desired username or identifier (e.g., myname).
+
+```sh
+mkdir -p lua/username/{core,plugins}
+```
+
+3. Create the plugin folder:
+```sh
+mkdir plugin
+```
+
+4. Create the init.lua file:
+Use a text editor like touch to create an empty file:
+```sh
+touch init.lua
+```
+
+#### ✍️ Purpose of Each File and Folder
+**1. init.lua**:
+- This is the main configuration file for Neovim.
+- It will load all other Lua modules and define global settings.
+
+**2. lua/username/core**:
+- This folder is for core configuration files (e.g., key mappings, options, autocommands).
+
+3. **lua/username/plugins**:
+- This folder is for plugin-specific configuration files.
+
+4. **plugin**:
+- This is used by Neovim to load custom plugins or runtime configurations.
+
+##### 🎉 Final Check
+Once you’ve created the folders and files, the following commands should display your structure:
+1. Verify the lua structure:
+```sh
+tree lua
+```
+
+If you don’t have the tree command installed, you can install it using Homebrew:
+
+```sh
+brew install tree
+```
+
+Expected output:
+```sh
+lua/
+└── username/
+    ├── core/
+    └── plugins/
+```
+
+2. Verify the `plugin` folder and `init.lua` file:
+```sh
+ls
+```
+
+Expected output:
+```sh
+init.lua  lua  plugin
+```
+
+
 
 
 My 
