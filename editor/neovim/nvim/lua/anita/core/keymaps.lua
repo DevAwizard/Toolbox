@@ -28,18 +28,19 @@ keymap.set("n", "<leader>sh", "<C-w>s", { desc = "Split window horizontally"}) -
 -- Make all split windows equal width and height with leader + se
 keymap.set("n", "<leader>se", "<C-w>=", { desc = "Make splits equal size"}) -- make split windows equal width
 -- Close the current split window with leader + sx
-keymap.set("n", "<leader>sx", "<:close<CR>", { desc = "Close current split"}) -- close current split windox
+keymap.set("n", "<leader>sx", "<cmd>close<CR>", { desc = "Close current split"}) -- close current split windox
 
 
 -- Tab management keymaps
 -- Open a new tab with leader + to
-keymap.set("n", "<leader>to", ":tabnew<CR>") -- open new tab
+keymap.set("n", "<leader>to", "<cmd>tabnew<CR>", { desc = "Open new tab" } ) -- open new tab
 -- Close the current tab with leader + tx
-keymap.set("n", "<leader>tx", ":tabclose<CR>") -- close current tab
+keymap.set("n", "<leader>tx", "<cmd>tabclose<CR>", { desc = "Close current tab" }) -- close current tab
 -- Go to the next tab with leader + tn
-keymap.set("n", "<leader>tn", ":tabn<CR>") -- go to the next tab
+keymap.set("n", "<leader>tn", "<cmd>tabn<CR>", { desc = "Go to next tab" }) -- go to the next tab
 -- Go to the previous tab with leader + tp
-keymap.set("n", "<leader>tp", ":tabp<CR>") -- go to the previous tab
+keymap.set("n", "<leader>tp", "<cmd>tabp<CR>", { desc = "Go to previous tab" }) -- go to the previous tab
+keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open current buffer in new tab" } -- 
 
 
 -- plugin keymaps
