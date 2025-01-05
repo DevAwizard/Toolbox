@@ -16,20 +16,19 @@ keymap.set("n", "<leader>nh", ":nohl<CR>", { desc = "Clear search highlights" })
 keymap.set("n", "x", '"_x')
 
 -- Increment numbers with leader + +
-keymap.set("n", "<leader>+", "<C-a>") -- increment numbers normal mode
+keymap.set("n", "<leader>+", "<C-a>", { desc = "Increment number"}) -- increment numbers normal mode
 
 -- Decrement numbers with leader + -
-
-keymap.set("n", "<leader>-", "<C-x>") -- decrement numbers normal mode
+keymap.set("n", "<leader>-", "<C-x>", { desc = "Increment number"}) -- decrement numbers normal mode
 
 -- Split window vertically with leader + sv
-keymap.set("n", "<leader>sv", "<C-w>v") -- split windows vertically
+keymap.set("n", "<leader>sv", "<C-w>v", { desc = "Split windows vertically"}) -- split windows vertically
 -- Split window horizontally with leader + sh
-keymap.set("n", "<leader>sh", "<C-w>s") -- split windows horizontally
+keymap.set("n", "<leader>sh", "<C-w>s", { desc = "Split window horizontally"}) -- split windows horizontally
 -- Make all split windows equal width and height with leader + se
-keymap.set("n", "<leader>se", "<C-w>=") -- make split windows equal width
+keymap.set("n", "<leader>se", "<C-w>=", { desc = "Make splits equal size"}) -- make split windows equal width
 -- Close the current split window with leader + sx
-keymap.set("n", "<leader>sx", "<:close<CR>") -- close current split windox
+keymap.set("n", "<leader>sx", "<:close<CR>", { desc = "Close current split"}) -- close current split windox
 
 
 -- Tab management keymaps
