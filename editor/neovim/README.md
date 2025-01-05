@@ -30,6 +30,7 @@ Whether you’re just starting your Neovim journey or looking for inspiration, t
    - [Step 7: Create the config_nvim Folder](#-step-7-create-the-config_nvim-folder)
    - [Step 8: Create the Used Folders and Files](#-step-8-create-the-used-folders-and-files)
    - [Step 9: Create the options File](#-step-9-create-the-options-file)
+   - [Step 10: Create keymap file](#-step-10-create-keymap-file)
 
 
 ### Installing Initial Tools
@@ -370,17 +371,7 @@ init.lua  lua  plugin
 
 The `options.lua` file is a centralized place for configuring Neovim’s core behavior. It ensures consistency across sessions and organizes the settings to make them easy to read and modify. By using `vim.opt` (Neovim’s modern Lua API), this file provides a clean, efficient way to customize options.
 
-Here’s a well-structured section for your README to include Step 9: Creating options.lua:
-
-📂 Step 9: Create the options.lua File
-
-In this step, we create a file named options.lua inside the lua/username/core folder. This file contains all the core settings to customize and optimize Neovim’s behavior.
-
-📜 Purpose of options.lua
-
-The options.lua file is a centralized place for configuring Neovim’s core behavior. It ensures consistency across sessions and organizes the settings to make them easy to read and modify. By using vim.opt (Neovim’s modern Lua API), this file provides a clean, efficient way to customize options.
-
-#### 🛠️ Steps to Create options.lua
+##### 🛠️ Steps to Create options.lua
 1. Navigate to the core directory:
 ```sh
 cd ~/.config/nvim/lua/username/core
@@ -420,7 +411,54 @@ require("username.core.options")
 - This tells Neovim to look for the `options.lua` file in the lua/username/core/ directory.
 
 **Why Is This Important?**
+
 The require statement ensures that the configurations defined in options.lua are applied whenever Neovim starts.
+
+#### 📂 Step 10: Create keymap file
+
+Define essential key mappings for Neovim to enhance productivity and make common tasks easier. Below is a breakdown of the keymaps:
+
+##### **🔑 General Keymaps**
+| Key Combination      | Mode   | Description                           |
+|-----------------------|--------|---------------------------------------|
+| `jk`                 | Insert | Exit insert mode quickly              |
+| `<leader>nh`         | Normal | Clear search highlights               |
+| `x`                  | Normal | Delete without copying to clipboard   |
+| `<leader>+`          | Normal | Increment numbers                     |
+| `<leader>-`          | Normal | Decrement numbers                     |
+
+
+##### **🪟 Window Management**
+| Key Combination      | Mode   | Description                                 |
+|-----------------------|--------|---------------------------------------------|
+| `<leader>sv`         | Normal | Split window vertically                     |
+| `<leader>sh`         | Normal | Split window horizontally                   |
+| `<leader>se`         | Normal | Equalize split window sizes                 |
+| `<leader>sx`         | Normal | Close the current split window              |
+
+
+##### **🗂️ Tab Management**
+| Key Combination      | Mode   | Description                                 |
+|-----------------------|--------|---------------------------------------------|
+| `<leader>to`         | Normal | Open a new tab                              |
+| `<leader>tx`         | Normal | Close the current tab                       |
+| `<leader>tn`         | Normal | Go to the next tab                          |
+| `<leader>tp`         | Normal | Go to the previous tab                      |
+| `<leader>tf`         | Normal | Open the current buffer in a new tab        |
+
+
+📂 **How to Use**
+1. Create the `keymaps.lua` File:
+   - Save the keymaps in lua/username/core/keymaps.lua.
+2. 🔄 Update Your `init.lua`:
+   - Add this line to include the keymaps:
+```sh
+require("username.core.keymaps")
+```
+3. Leader Key:
+- The leader key is set to Space (vim.g.mapleader = " "), making shortcuts intuitive.
+
+
 
 
 
