@@ -34,7 +34,7 @@ Whether you’re just starting your Neovim journey or looking for inspiration, t
 
 ### Installing Initial Tools
 
-### 🛠 Step 1: Install iTerm2 (Optional but Recommended)
+#### 🛠 Step 1: Install iTerm2 (Optional but Recommended)
 
 If you’re on macOS, I recommend using `iTerm2` as your terminal. It’s a powerful replacement for the default Terminal app with features like:
 - Split panes for multitasking.
@@ -47,7 +47,7 @@ If you’re on macOS, I recommend using `iTerm2` as your terminal. It’s a powe
 
 After installing iTerm2, you’re ready to start setting up Neovim!
 
-### 🛠 Step 2: Install Homebrew (If You Don’t Have It)
+#### 🛠 Step 2: Install Homebrew (If You Don’t Have It)
 
 Homebrew is a package manager for macOS that makes it easy to install software and tools from the terminal. If you don’t have it installed yet, follow these steps:
 
@@ -71,7 +71,7 @@ If it outputs a version number, like the one below, you’re good to go!
 ```sh
 Homebrew 4.4.14
 ```
-### 🛠 Step 3: Install Neovim
+#### 🛠 Step 3: Install Neovim
 
 Neovim is the main focus here, so let’s install it first. You don’t need Vim unless you explicitly want to use both.
 
@@ -107,11 +107,11 @@ vim --version
 ```
 
 
-### 🛠 Step 4: Enable or Install a Coding Font (Optional but Recommended)
+#### 🛠 Step 4: Enable or Install a Coding Font (Optional but Recommended)
 
 A good coding font with ligatures and icon support enhances your Neovim experience, especially with plugins like Telescope and lualine. Follow the instructions below depending on your setup.
 
-#### 💡 Scenario 1: Fonts Are Preinstalled in iTerm2
+##### 💡 Scenario 1: Fonts Are Preinstalled in iTerm2
 
 If you’re using iTerm2, many popular coding fonts (like Nerd Fonts) are already preinstalled. You can skip manual installation and enable one of these fonts directly:
 
@@ -135,7 +135,7 @@ If you’re using iTerm2, many popular coding fonts (like Nerd Fonts) are alread
 5. Save and Apply:
    - Close the Preferences window. The new font will automatically apply to your terminal.
 
-#### 💡 Scenario 2: Manually Install Fonts
+##### 💡 Scenario 2: Manually Install Fonts
 
 1. Visit the [Nerd Fonts Website](https://www.nerdfonts.com/).
 
@@ -162,7 +162,7 @@ Whether you used a preinstalled font or manually installed one, follow these ste
 3.  Change the font to your installed font (e.g., JetBrains Mono Nerd Font, MesloLGS NF).
 
 
-### 🛠 Step 5: Install Ripgrep (Recommended for Search)
+#### 🛠 Step 5: Install Ripgrep (Recommended for Search)
 
 Ripgrep (often abbreviated as rg) is a fast and modern search tool that works seamlessly with Neovim plugins like Telescope for finding files or text within projects.
 
@@ -186,7 +186,7 @@ Why Ripgrep?
 - Speed: It’s significantly faster than traditional search tools like grep.
 - Integration: Many Neovim plugins, such as Telescope, rely on ripgrep for their search functionality.
 
-### 🛠 Step 6: Install Node (Recommended for Plugin Support)
+#### 🛠 Step 6: Install Node (Recommended for Plugin Support)
 
 Node.js is an essential dependency for many Neovim plugins, especially those using modern JavaScript tooling. It’s required for features like syntax highlighting (via Treesitter), language servers, and other powerful plugins.
 
@@ -222,7 +222,7 @@ Sometimes, the npm version installed with `Node.js` might be outdated. To update
 npm install -g npm
 ```
 
-### 📂 Step 7: Create the config_nvim Folder
+#### 📂 Step 7: Create the config_nvim Folder
 
 The `~/.config/nvim` directory is where Neovim stores its configuration files. By default: Use `init.vim` (or `init.lua` for Lua-based configurations) to define your custom settings and plugins. 💻
 
@@ -277,7 +277,7 @@ mkdir -p ~/.config/nvim
 
 The `-p` flag ensures that both .config and nvim are created if they don’t already exist. 🛡️
 
-### 📂 Step 8: Create the Used Folders and Files
+#### 📂 Step 8: Create the Used Folders and Files
 
 In this step, you will create the necessary folders and files for organizing your Neovim configuration.
 
@@ -364,7 +364,7 @@ Expected output:
 init.lua  lua  plugin
 ```
 
-### 📂 Step 9: Create the options File
+#### 📂 Step 9: Create the options File
 
 📜 Purpose of options.lua
 
