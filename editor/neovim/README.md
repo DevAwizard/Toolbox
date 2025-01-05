@@ -29,7 +29,7 @@ Whether you’re just starting your Neovim journey or looking for inspiration, t
    - [Step 6: Install Node (Recommended for Plugin Support)](#-step-6-install-node-recommended-for-plugin-support)
    - [Step 7: Create the config_nvim Folder](#-step-7-create-the-config_nvim-folder)
    - [Step 8: Create the Used Folders and Files](#-step-8-create-the-used-folders-and-files)
-   - [Step 9: Create the options.lua File](#-step-9-create-the-options-lua-file)
+   - [Step 9: Create the options.lua File](#-step-9-create-the-options.lua-file)
 
 
 ## Installing Initial Tools
