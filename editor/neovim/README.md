@@ -24,7 +24,7 @@ Whether you’re just starting your Neovim journey or looking for inspiration, t
    - [Step 1: Install iTerm2 (Optional but Recommended)](#-step-1-install-iterm2-optional-but-recommended)
    - [Step 2: Install Homebrew (If You Don’t Have It)](#-step-2-install-homebrew-if-you-dont-have-it)
    - [Step 3: Install Neovim](#-step-3-install-neovim)
-   - [Step 4: Install a Coding Font (Optional but Recommended)](#step-4-install-a-coding-font-optional-but-Recommended)
+   - [Step 4: Enable or Install a Coding Font (Optional but Recommended)](#step-4-enable-or-install-a-coding-font-optional-but-Recommended)
 
 
 ## Installing Initial Tools
@@ -102,9 +102,35 @@ vim --version
 ```
 
 
-### Step 4: Install a Coding Font (Optional but Recommended)
+### 🛠 Step 4: Install or Enable a Coding Font (Optional but Recommended)
 
-A good coding font with ligatures and icon support enhances your Neovim experience, especially with plugins like Telescope and lualine. Since homebrew/cask-fonts is no longer available, here’s how to install fonts manually:
+A good coding font with ligatures and icon support enhances your Neovim experience, especially with plugins like Telescope and lualine. Follow the instructions below depending on your setup.
+
+#### 💡 Scenario 1: Fonts Are Preinstalled in iTerm2
+
+If you’re using iTerm2, many popular coding fonts (like Nerd Fonts) are already preinstalled. You can skip manual installation and enable one of these fonts directly:
+
+1. Open iTerm2 Preferences:
+   - Press Cmd + , or go to iTerm2 > Preferences from the menu bar.
+
+2. Navigate to Profiles:
+   - In the Preferences window, click on the Profiles tab.
+	- Select your active profile (e.g., Default).
+
+3. Go to the Text Tab:
+   - Click on the Text tab (🖋️).
+
+4. Select a Preinstalled Font:
+   - Under the Font section:
+      - Click the dropdown or gear icon next to the current font.
+   - Choose a preinstalled font with Nerd Font support, such as:
+      - MesloLGS NF (default in iTerm2, supports Nerd Fonts).
+      - JetBrains Mono Nerd Font.
+      - Hack Nerd Font.
+5. Save and Apply:
+   - Close the Preferences window. The new font will automatically apply to your terminal.
+
+#### 💡 Scenario 2: Manually Install Fonts
 
 1. Visit the [Nerd Fonts Website](https://www.nerdfonts.com/).
 
@@ -121,8 +147,16 @@ A good coding font with ligatures and icon support enhances your Neovim experien
 
 6. Setting the Font in Your Terminal
    - Open your terminal preferences (e.g., iTerm2 or Terminal).
-   - Navigate to the Profiles or Appearance section.
-   - Change the font to your installed font (e.g., “JetBrains Mono Nerd Font”).
+   - Navigate to the **Profiles** or **Appearance** section.
+   - Change the font to your **installed font** (e.g., “JetBrains Mono Nerd Font”).
+Setting the Font in Your Terminal
+
+Whether you used a preinstalled font or manually installed one, follow these steps to apply it in your terminal:
+	1.	Open your terminal preferences (e.g., iTerm2 or Terminal).
+	2.	Navigate to the Profiles or Appearance section.
+	3.	Change the font to your installed font (e.g., JetBrains Mono Nerd Font, MesloLGS NF).
+
+
 
 
 
