@@ -6,10 +6,10 @@ local keymap = vim.keymap -- for conciseness
 
 -- General keymaps
 -- Exit insert mode by pressing "jk" quickly
-keymap.set("i", "jk", "<ESC>")
+keymap.set("i", "jk", "<ESC>", { desc = "Exit insert mode with jk" })
 
 -- Clear search highlights with leader + nh
-keymap.set("n", "<leader>nh", ":nohl<CR>")
+keymap.set("n", "<leader>nh", ":nohl<CR>", { desc = "Clear search highlights" })
 
 
 -- Delete a character without copying it to the clipboard
