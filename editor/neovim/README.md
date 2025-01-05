@@ -32,13 +32,13 @@ Whether you’re just starting your Neovim journey or looking for inspiration, t
 ### 🛠 Step 1: Install iTerm2 (Optional but Recommended)
 
 If you’re on macOS, I recommend using `iTerm2` as your terminal. It’s a powerful replacement for the default Terminal app with features like:
-	•	Split panes for multitasking.
-	•	Better colors and font customization.
-	•	Built-in search and clipboard history.
+- Split panes for multitasking.
+- Better colors and font customization.
+- Built-in search and clipboard history.
 
  Install iTerm2:
-	1.	Go to the [iTerm2 website](https://iterm2.com/index.html).
-	2.	Download and install the latest version.
+ 1. Go to the [iTerm2 website](https://iterm2.com/index.html).
+ 2. Download and install the latest version.
 
 After installing iTerm2, you’re ready to start setting up Neovim!
 
@@ -47,15 +47,15 @@ After installing iTerm2, you’re ready to start setting up Neovim!
 Homebrew is a package manager for macOS that makes it easy to install software and tools from the terminal. If you don’t have it installed yet, follow these steps:
 
 Install Homebrew:
-  1.	Open your terminal (or iTerm2 if you installed it in the previous step).
-  
-  2.	Run the following command to install Homebrew:
+1. Open your terminal (or iTerm2 if you installed it in the previous step).
+
+2. Run the following command to install Homebrew:
 
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-  3.	Follow the on-screen instructions to complete the installation. After it’s done, verify that Homebrew is installed by running:
+3. Follow the on-screen instructions to complete the installation. After it’s done, verify that Homebrew is installed by running:
 
 ```sh
 brew --version
@@ -67,7 +67,7 @@ If it outputs a version number, you’re good to go!
 
 Neovim is the main focus here, so let’s install it first. You don’t need Vim unless you explicitly want to use both.
 
-Install Neovim with Homebrew (macOS):
+Install Neovim with `Homebrew` (macOS):
 
 If you’ve installed Homebrew (Step 2), installing Neovim is simple:
 ```sh
