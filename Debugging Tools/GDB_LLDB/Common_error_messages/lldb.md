@@ -210,6 +210,7 @@ run
 ```
 
 - Reattach to the correct process if needed:
+
 ```sh
 attach <process_id>
 ```
@@ -249,11 +250,13 @@ error: invalid command 'brakpoint set'
 **Cause**:
 - Typo in the command (e.g., brakpoint instead of breakpoint).
 - Missing required parameters.
+
 **Fix**:
 - Check the correct syntax for the command:
 
 ```sh
 help breakpoint
+
 ```
 ### 13. Error: Process exited with code <code> 🔚
 
@@ -284,12 +287,14 @@ backtrace
 
 **2. Inspect Variables**:
 - Use frame variable or print to examine variable values:
+
 ```sh
 frame variable
 print variable_name
 ```
 
 **3. Step Through Code**:
+
 - Use step or next to locate the exact line causing the issue:
 
 ```sh
