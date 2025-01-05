@@ -1,3 +1,6 @@
+-- Set Netrw to use a tree-style directory listing
+vim.cmd("let g:netrw_liststyle = 3")
+
 -- Import Neovim's `vim.opt` for conciseness
 local opt = vim.opt
 
