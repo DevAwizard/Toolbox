@@ -61,8 +61,11 @@ Install Homebrew:
 brew --version
 ```
 
-If it outputs a version number, you’re good to go!
+If it outputs a version number, like the one below, you’re good to go!
 
+```sh
+Homebrew 4.4.14
+```
 ### 🛠 Step 3: Install Neovim
 
 Neovim is the main focus here, so let’s install it first. You don’t need Vim unless you explicitly want to use both.
