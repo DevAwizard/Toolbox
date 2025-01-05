@@ -4,7 +4,7 @@ vim.g.mapleader = " "
 -- Use a local variable for conciseness
 local keymap = vim.keymap -- for conciseness
 
--- General keymaps
+-- Basic keymaps
 -- Exit insert mode by pressing "jk" quickly
 keymap.set("i", "jk", "<ESC>", { desc = "Exit insert mode with jk" })
 
@@ -53,7 +53,9 @@ keymap.set("n", "<leader>tp", "<cmd>tabp<CR>", { desc = "Go to previous tab" })
 keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open current buffer in new tab" })
 -- This creates a new tab with the same file/buffer as the current one when you press `<leader>tf`.
 
--- plugin keymaps
+
+
+-- Plugin keymaps
 
 -- vim-maximazer
 -- Toggle window maximization with leader + sm (requires vim-maximizer plugin)
