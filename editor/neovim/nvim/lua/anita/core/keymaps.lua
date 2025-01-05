@@ -32,16 +32,26 @@ keymap.set("n", "<leader>sx", "<cmd>close<CR>", { desc = "Close current split"})
 
 
 -- Tab management keymaps
--- Open a new tab with leader + to
-keymap.set("n", "<leader>to", "<cmd>tabnew<CR>", { desc = "Open new tab" } ) -- open new tab
--- Close the current tab with leader + tx
-keymap.set("n", "<leader>tx", "<cmd>tabclose<CR>", { desc = "Close current tab" }) -- close current tab
--- Go to the next tab with leader + tn
-keymap.set("n", "<leader>tn", "<cmd>tabn<CR>", { desc = "Go to next tab" }) -- go to the next tab
--- Go to the previous tab with leader + tp
-keymap.set("n", "<leader>tp", "<cmd>tabp<CR>", { desc = "Go to previous tab" }) -- go to the previous tab
-keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open current buffer in new tab" } -- 
 
+-- Open a new tab with <leader> + to
+keymap.set("n", "<leader>to", "<cmd>tabnew<CR>", { desc = "Open new tab" })
+-- This creates a new empty tab when you press `<leader>to` in normal mode.
+
+-- Close the current tab with <leader> + tx
+keymap.set("n", "<leader>tx", "<cmd>tabclose<CR>", { desc = "Close current tab" })
+-- This closes the current tab when you press `<leader>tx`.
+
+-- Go to the next tab with <leader> + tn
+keymap.set("n", "<leader>tn", "<cmd>tabn<CR>", { desc = "Go to next tab" })
+-- This navigates to the next tab when you press `<leader>tn`.
+
+-- Go to the previous tab with <leader> + tp
+keymap.set("n", "<leader>tp", "<cmd>tabp<CR>", { desc = "Go to previous tab" })
+-- This navigates to the previous tab when you press `<leader>tp`.
+
+-- Open the current buffer in a new tab with <leader> + tf
+keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open current buffer in new tab" })
+-- This creates a new tab with the same file/buffer as the current one when you press `<leader>tf`.
 
 -- plugin keymaps
 
