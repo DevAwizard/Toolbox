@@ -102,7 +102,7 @@ vim --version
 ```
 
 
-### 🛠 Step 4: Install or Enable a Coding Font (Optional but Recommended)
+### 🛠 Step 4: Enable or Install a Coding Font (Optional but Recommended)
 
 A good coding font with ligatures and icon support enhances your Neovim experience, especially with plugins like Telescope and lualine. Follow the instructions below depending on your setup.
 
