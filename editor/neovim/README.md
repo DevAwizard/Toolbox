@@ -24,6 +24,7 @@ Whether you’re just starting your Neovim journey or looking for inspiration, t
    - [Step 1: Install iTerm2 (Optional but Recommended)](#-step-1-install-iterm2-optional-but-recommended)
    - [Step 2: Install Homebrew (If You Don’t Have It)](#-step-2-install-homebrew-if-you-dont-have-it)
    - [Step 3: Install Neovim](#-step-3-install-neovim)
+   - [Step 4: Install a Coding Font (Optional but Recommended)](#step-4-install-a-coding-font-optional-but-Recommended)
 
 
 ## Installing Initial Tools
@@ -101,7 +102,29 @@ vim --version
 ```
 
 
-### Step 4: 
+### Step 4: Install a Coding Font (Optional but Recommended)
+
+A good coding font with ligatures and icon support enhances your Neovim experience, especially with plugins like Telescope and lualine. Since homebrew/cask-fonts is no longer available, here’s how to install fonts manually:
+
+1. Visit the [Nerd Fonts Website](https://www.nerdfonts.com/).
+
+2. Find a font you like:
+   - `JetBrains` Mono Nerd Font (popular for coding).
+   - `Fira Code Nerd Font` (great with ligatures).
+   - `Hack Nerd Font` (clean and simple).
+
+3. Download the .zip file for your chosen font.
+
+4. Extract the .zip file.
+
+5. Double-click the .ttf files to install them on your system.
+
+6. Setting the Font in Your Terminal
+   - Open your terminal preferences (e.g., iTerm2 or Terminal).
+   - Navigate to the Profiles or Appearance section.
+   - Change the font to your installed font (e.g., “JetBrains Mono Nerd Font”).
+
+
 
 
 
