@@ -25,7 +25,8 @@ Whether you’re just starting your Neovim journey or looking for inspiration, t
    - [Step 2: Install Homebrew (If You Don’t Have It)](#-step-2-install-homebrew-if-you-dont-have-it)
    - [Step 3: Install Neovim](#-step-3-install-neovim)
    - [Step 4: Enable or Install a Coding Font (Optional but Recommended)](#-step-4-enable-or-install-a-coding-font-optional-but-recommended)
-   - [Step 5: Install Ripgrep (Recommended for Search](#step-5-install-ripgrep-recommended-for-search)
+   - [Step 5: Install Ripgrep (Recommended for Search)](#-step-5-install-ripgrep-recommended-for-search)
+
 
 ## Installing Initial Tools
 
@@ -181,8 +182,41 @@ Why Ripgrep?
 - Speed: It’s significantly faster than traditional search tools like grep.
 - Integration: Many Neovim plugins, such as Telescope, rely on ripgrep for their search functionality.
 
+### 🛠 Step 6: Install node (Recommended for Plugin Support)
 
+Node.js is an essential dependency for many Neovim plugins, especially those using modern JavaScript tooling. It’s required for features like syntax highlighting (via Treesitter), language servers, and other powerful plugins.
 
+Install Node.js with Homebrew (macOS):
+
+To install Node.js, use Homebrew:
+```sh
+brew install node
+```
+Verify Installation:
+
+Once installed, confirm `Node.js` and `npm` (Node.js package manager) are installed by running:
+```sh
+node --version
+npm --version
+```
+
+You should see output similar to this:
+```sh
+v23.5.0  # Node.js version
+10.9.2    # npm version
+```
+
+#### Why Do You Need Node.js? 🌟
+
+- Plugin Support: Many Neovim plugins, such as nvim-treesitter and Telescope, require Node.js for additional functionality.
+- Language Server Protocols (LSP): Install and configure LSP servers for languages like JavaScript, TypeScript, etc.
+
+Optional: Update npm
+
+Sometimes, the npm version installed with Node.js might be outdated. To update npm to the latest version, run:
+```sh
+npm install -g npm
+```
 
 
 
