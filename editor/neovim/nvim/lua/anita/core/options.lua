@@ -1,40 +1,40 @@
-local opt = vim.opt --for conciseness
+-- Import Neovim's `vim.opt` for conciseness
+local opt = vim.opt
 
--- line nunbers
-opt.relativenumber = true
-opt.number = true
+-- Line Numbers
+opt.relativenumber = true    -- Enables relative line numbers
+opt.number = true            -- Displays the current line number
 
--- tabs & indentation
-opt.tabstop = 2
-opt.shiftwidth = 2
-opt.expandtab = true
-opt.autoindent = true
+-- Tabs & Indentation
+opt.tabstop = 2              -- Number of spaces for a tab
+opt.shiftwidth = 2           -- Number of spaces for indentation
+opt.expandtab = true         -- Converts tabs to spaces
+opt.autoindent = true        -- Maintains the same indentation level as the previous line
 
+-- Line Wrapping
+opt.wrap = false             -- Disables line wrapping
 
--- line wrapping
-opt.wrap = false
+-- Search Settings
+opt.ignorecase = true        -- Ignore case when searching
+opt.smartcase = true         -- Override `ignorecase` if the search contains uppercase letters
 
--- search settings
-opt.ignorecase = true
-opt.smartcase = true
+-- Cursor Line
+opt.cursorline = true        -- Highlights the current cursor line
 
--- cursor line
-opt.cursorline = true
+-- Appearance
+opt.termguicolors = true     -- Enables 24-bit RGB color in the terminal
+opt.background = "dark"      -- Sets background theme to dark
+opt.signcolumn = "yes"       -- Always shows the sign column (e.g., for diagnostics)
 
--- appearance
-opt.termguicolors = true
-opt.background = "dark"
-opt.signcolumn = "yes"
+-- Backspace Behavior
+opt.backspace = "indent,eol,start" -- Allows backspacing over indentation, line breaks, and insertion start
 
--- backspace
-opt.backspace = "indent,eol,start"
+-- Clipboard
+opt.clipboard:append("unnamedplus") -- Use the system clipboard for copy/paste
 
--- clipboard
-opt.clipboard:append("unnamedplus")
+-- Split Windows
+opt.splitright = true        -- Opens vertical splits to the right
+opt.splitbelow = true        -- Opens horizontal splits below
 
--- split windows
-opt.splitright = true
-opt.splitbelow = true
-
-opt.iskeyword:append("-")
-
+-- Additional Keyword Characters
+opt.iskeyword:append("-")    -- Treat hyphenated words as a single keyword
