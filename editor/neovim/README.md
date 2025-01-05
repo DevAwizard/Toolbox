@@ -18,7 +18,7 @@ Whether you’re just starting your Neovim journey or looking for inspiration, t
 - **Great for Beginners**: Start simple and build up as you learn.
 
 
-## 📚 Table of Contents
+### 📚 Table of Contents
 
 1. [Installing Initial Tools](#installing-initial-tools)
    - [Step 1: Install iTerm2 (Optional but Recommended)](#-step-1-install-iterm2-optional-but-recommended)
@@ -32,7 +32,7 @@ Whether you’re just starting your Neovim journey or looking for inspiration, t
    - [Step 9: Create the options File](#-step-9-create-the-options-file)
 
 
-## Installing Initial Tools
+### Installing Initial Tools
 
 ### 🛠 Step 1: Install iTerm2 (Optional but Recommended)
 
