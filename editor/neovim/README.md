@@ -27,7 +27,7 @@ Whether you’re just starting your Neovim journey or looking for inspiration, t
    - [Step 4: Enable or Install a Coding Font (Optional but Recommended)](#-step-4-enable-or-install-a-coding-font-optional-but-recommended)
    - [Step 5: Install Ripgrep (Recommended for Search)](#-step-5-install-ripgrep-recommended-for-search)
    - [Step 6: Install Node (Recommended for Plugin Support)](#-step-6-install-node-recommended-for-plugin-support)
-   - [Step 7: Create the ~/.config/nvim Folder](#-step-7-create-the-config-nvim-folder)
+   - [Step 7: Create the config_nvim Folder](#-step-7-create-the-config-nvim-folder)
 
 
 
@@ -221,7 +221,7 @@ Sometimes, the npm version installed with Node.js might be outdated. To update n
 npm install -g npm
 ```
 
-### 📂 Step 7: Create the ~/.config/nvim Folder
+### 📂 Step 7: Create the config_nvim Folder
 
 The `~/.config/nvim` directory is where Neovim stores its configuration files. By default: Use `init.vim` (or `init.lua` for Lua-based configurations) to define your custom settings and plugins. 💻
 
