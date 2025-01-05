@@ -1,6 +1,6 @@
-# Common LLDB error messages
+# Common LLDB error messages 🚨
 
-### 1. Error: No such file or directory
+### 1. Error: No such file or directory 🗂️
 
 **Description**:
 
@@ -21,7 +21,7 @@ gcc -g -o program program.c
 lldb ./program
 ```
 
-### 2. Error: Breakpoint ID <id> not found
+### 2. Error: Breakpoint ID <id> not found ❌
 
 **Description**:
 - Happens when you try to delete, enable, or disable a nonexistent breakpoint.
@@ -40,7 +40,7 @@ breakpoint list
 ```
 Then manage the correct breakpoint ID.
 
-### 3. Error: Invalid memory access (segmentation fault)
+### 3. Error: Invalid memory access (segmentation fault) 💥
 
 **Description**:
 - Indicates a segmentation fault (SIGSEGV) due to invalid memory access.
@@ -67,7 +67,7 @@ frame variable
 
 Fix the code to ensure proper memory management.
 
-### 4. Error: Use of undeclared identifier
+### 4. Error: Use of undeclared identifier 🔍
 
 **Description**:
 Compilation error indicating a variable, function, or constant is used without being declared.
@@ -85,7 +85,7 @@ error: use of undeclared identifier 'my_variable'
 - Verify the identifier is spelled correctly.
 - Ensure all necessary headers are included.
 
-### 5. Error: Symbol not found
+### 5. Error: Symbol not found 🔗
 
 **Description**:
 - LLDB cannot find symbols (debug information) in the binary.
@@ -105,7 +105,7 @@ Recompile the program with debug symbols:
 gcc -g -o program program.c
 ```
 
-### 6. Error: Invalid expression
+### 6. Error: Invalid expression 🚫
 
 **Description**:
 - Happens when you try to evaluate an invalid expression.
@@ -123,7 +123,7 @@ error: invalid expression
 - Verify the expression’s syntax.
 - Ensure the variable or function is accessible in the current frame.
 
-### 7. Error: Unable to resolve file path
+### 7. Error: Unable to resolve file path 🗺️
 
 **Description**:
 - LLDB cannot find the source file for the specified breakpoint.
@@ -145,9 +145,9 @@ gcc -g -o program program.c
 
 - Ensure the source file exists in the expected path.
 
-### 8. Error: Execution was interrupted
-**Description**:
+### 8. Error: Execution was interrupted ⏸️
 
+**Description**:
 - Happens when the debugger stops execution due to a breakpoint, signal, or error.
 
 **Example**:
@@ -171,7 +171,7 @@ backtrace
 list
 ```
 
-### 9. Error: Watchpoint creation failed
+### 9. Error: Watchpoint creation failed 👁️
 
 **Description**:
 - LLDB failed to set a watchpoint on a variable.
@@ -189,7 +189,7 @@ error: watchpoint creation failed
 - Ensure the variable is in scope.
 - Try an alternative approach (e.g., breakpoints and manual inspection).
 
-### 10. Error: No threads found
+### 10. Error: No threads found 🧵
 
 **Description**:
 - LLDB cannot find any running threads to debug.
@@ -214,7 +214,7 @@ run
 attach <process_id>
 ```
 
-### 11. Error: Unexpected signal received
+### 11. Error: Unexpected signal received 🚨
 
 **Description**:
 - A signal (e.g., SIGSEGV, SIGABRT) interrupted program execution.
@@ -230,12 +230,13 @@ signal = SIGSEGV
 
 **Fix**:
 - Use backtrace to locate the source of the error:
+
 ```sh
 backtrace
 ```
 - Inspect variables and memory access.
 
-### 12. Error: Invalid command
+### 12. Error: Invalid command ❓
 
 **Description**:
 - LLDB did not recognize the command you entered.
@@ -250,10 +251,11 @@ error: invalid command 'brakpoint set'
 - Missing required parameters.
 **Fix**:
 - Check the correct syntax for the command:
+
 ```sh
 help breakpoint
 ```
-### 13. Error: Process exited with code <code>
+### 13. Error: Process exited with code <code> 🔚
 
 **Description**:
 The program finished execution with a specific exit code.
@@ -271,7 +273,8 @@ Process 12345 exited with code 1
 - Analyze the program’s logic for why it exited with the given code.
 - Set breakpoints to debug the issue.
 
-## Tools to Analyze Errors
+
+## Pro Tips - Tools to Analyze Error 🌟
 
 **1. Use backtrace (or bt)**:
 - Identify the call stack leading to the error.
@@ -288,6 +291,7 @@ print variable_name
 
 **3. Step Through Code**:
 - Use step or next to locate the exact line causing the issue:
+
 ```sh
 step
 ```
