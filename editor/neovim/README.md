@@ -403,7 +403,26 @@ To view the full configuration details, refer to the `options.lua` file in your 
 [options.lua](https://github.com/DevAwizard/Toolbox/blob/main/editor/neovim/nvim/lua/anita/core/options.lua)
 
 
-My 
+#### 🔄 Update Your init.lua
+
+After adding the basic configuration in options.lua, ensure it is loaded by updating your `init.lua` file. Add the following line to include the options.lua settings:
+```sh
+require("username.core.options")
+```
+Explanation:
+**`require`**:
+- This Lua function is used to load and execute the options.lua file as a module.
+
+**`username.core.options`**:
+- Replace `username` with the name of the folder you created earlier (e.g., myname).
+- This tells Neovim to look for the `options.lua` file in the lua/username/core/ directory.
+
+**Why Is This Important?**
+The require statement ensures that the configurations defined in options.lua are applied whenever Neovim starts.
+
+
+
+### Final picture
 ```sh
 .
 ├── init.lua
