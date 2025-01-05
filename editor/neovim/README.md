@@ -394,13 +394,6 @@ To view the full configuration details, refer to the `options.lua` file in your 
 [options.lua](https://github.com/DevAwizard/Toolbox/blob/main/editor/neovim/nvim/lua/anita/core/options.lua)
 
 
-#### 🔄 Update Your init.lua
-
-After adding the basic configuration in options.lua, ensure it is loaded by updating your `init.lua` file. Add the following line to include the options.lua settings:
-```sh
-require("username.core.options")
-```
-
 ##### Explanation:
 
 **`require`**:
@@ -416,7 +409,12 @@ The require statement ensures that the configurations defined in options.lua are
 
 #### 📂 Step 10: Create keymap file
 
-Define essential key mappings for Neovim to enhance productivity and make common tasks easier. Below is a breakdown of the keymaps:
+Define essential key mappings for Neovim to enhance productivity and make common tasks easier. 
+
+1. Create the `keymaps.lua` File:
+   - Save the keymaps in lua/username/core/keymaps.lua.
+
+Below is a breakdown of the keymaps commands:
 
 ##### **🔑 General Keymaps**
 | Key Combination      | Mode   | Description                           |
@@ -447,16 +445,22 @@ Define essential key mappings for Neovim to enhance productivity and make common
 | `<leader>tf`         | Normal | Open the current buffer in a new tab        |
 
 
-📂 **How to Use**
-1. Create the `keymaps.lua` File:
-   - Save the keymaps in lua/username/core/keymaps.lua.
-2. 🔄 Update Your `init.lua`:
-   - Add this line to include the keymaps:
+The leader key is set to Space (vim.g.mapleader = " "), making shortcuts intuitive.
+
+2. Add the following configuration:
+
+The `keymaps.lua` file defines key configurations for Neovim, including line numbers, indentation, search behavior, appearance, clipboard integration, and split window preferences. Each setting is fully documented directly in the file for clarity.
+
+To view the full configuration details, refer to the `keymaps.lua` file in your repository:
+[options.lua](https://github.com/DevAwizard/Toolbox/blob/main/editor/neovim/nvim/lua/anita/core/keymaps.lua)
+
+#### 🔄 Update Your keymaps.lua
+
+After adding the basic configuration in options.lua, ensure it is loaded by updating your `keymaps.lua` file. Add the following line to include the options.lua settings:
 ```sh
 require("username.core.keymaps")
 ```
-3. Leader Key:
-- The leader key is set to Space (vim.g.mapleader = " "), making shortcuts intuitive.
+
 
 
 
