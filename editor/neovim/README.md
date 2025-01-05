@@ -29,6 +29,7 @@ Whether you’re just starting your Neovim journey or looking for inspiration, t
    - [Step 6: Install Node (Recommended for Plugin Support)](#-step-6-install-node-recommended-for-plugin-support)
    - [Step 7: Create the config_nvim Folder](#-step-7-create-the-config_nvim-folder)
    - [Step 8: Create the Used Folders and Files](#-step-8-create-the-used-folders-and-files)
+   - [Step 9: Create the options.lua File](#-step-9-create-the-options-lua-file)
 
 
 ## Installing Initial Tools
@@ -396,10 +397,10 @@ nvim options.lua
 ```
 4. Add the following configuration:
 
-The options.lua file defines key configurations for Neovim, such as line numbers, indentation, search behavior, appearance, clipboard integration, and split window preferences. Each setting is documented directly in the file for clarity.
+The `options.lua` file defines key configurations for Neovim, including line numbers, indentation, search behavior, appearance, clipboard integration, and split window preferences. Each setting is fully documented directly in the file for clarity.
 
-To view the full configuration details, refer to the [options.lua file in your repository:
-[options.lua](./lua/anita/core/options.lua)
+To view the full configuration details, refer to the `options.lua` file in your repository:
+[options.lua](https://github.com/DevAwizard/Toolbox/blob/main/editor/neovim/nvim/lua/anita/core/options.lua)
 
 
 My 
