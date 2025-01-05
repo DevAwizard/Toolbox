@@ -363,7 +363,43 @@ Expected output:
 init.lua  lua  plugin
 ```
 
+### 📂 Step 9: Create the options.lua File
 
+📜 Purpose of options.lua
+
+The `options.lua` file is a centralized place for configuring Neovim’s core behavior. It ensures consistency across sessions and organizes the settings to make them easy to read and modify. By using `vim.opt` (Neovim’s modern Lua API), this file provides a clean, efficient way to customize options.
+
+Here’s a well-structured section for your README to include Step 9: Creating options.lua:
+
+📂 Step 9: Create the options.lua File
+
+In this step, we create a file named options.lua inside the lua/username/core folder. This file contains all the core settings to customize and optimize Neovim’s behavior.
+
+📜 Purpose of options.lua
+
+The options.lua file is a centralized place for configuring Neovim’s core behavior. It ensures consistency across sessions and organizes the settings to make them easy to read and modify. By using vim.opt (Neovim’s modern Lua API), this file provides a clean, efficient way to customize options.
+
+#### 🛠️ Steps to Create options.lua
+1. Navigate to the core directory:
+```sh
+cd ~/.config/nvim/lua/username/core
+```
+
+2. Create the options.lua file:
+```sh
+touch options.lua
+```
+
+3. Open the file in Neovim:
+```sh
+nvim options.lua
+```
+4. Add the following configuration:
+
+The options.lua file defines key configurations for Neovim, such as line numbers, indentation, search behavior, appearance, clipboard integration, and split window preferences. Each setting is documented directly in the file for clarity.
+
+To view the full configuration details, refer to the [options.lua file in your repository:
+[options.lua](./lua/anita/core/options.lua)
 
 
 My 
