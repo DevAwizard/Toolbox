@@ -151,9 +151,9 @@ If you’re using iTerm2, many popular coding fonts (like Nerd Fonts) are alread
 Setting the Font in Your Terminal
 
 Whether you used a preinstalled font or manually installed one, follow these steps to apply it in your terminal:
-	1.	Open your terminal preferences (e.g., iTerm2 or Terminal).
-	2.	Navigate to the Profiles or Appearance section.
-	3.	Change the font to your installed font (e.g., JetBrains Mono Nerd Font, MesloLGS NF).
+1. Open your terminal preferences (e.g., iTerm2 or Terminal).
+2.  Navigate to the Profiles or Appearance section.
+3.  Change the font to your installed font (e.g., JetBrains Mono Nerd Font, MesloLGS NF).
 
 
 
