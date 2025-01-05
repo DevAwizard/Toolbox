@@ -211,12 +211,12 @@ v23.5.0  # Node.js version
 
 #### Why Do You Need Node.js? 🌟
 
-- Plugin Support: Many Neovim plugins, such as nvim-treesitter and Telescope, require Node.js for additional functionality.
-- Language Server Protocols (LSP): Install and configure LSP servers for languages like JavaScript, TypeScript, etc.
+- **Plugin Support**: Many Neovim plugins, such as nvim-treesitter and Telescope, require Node.js for additional functionality.
+- **Language Server Protocols (LSP)**: Install and configure LSP servers for languages like JavaScript, TypeScript, etc.
 
 **Optional: Update npm**
 
-Sometimes, the npm version installed with Node.js might be outdated. To update npm to the latest version, run:
+Sometimes, the npm version installed with `Node.js` might be outdated. To update npm to the latest version, run:
 ```sh
 npm install -g npm
 ```
