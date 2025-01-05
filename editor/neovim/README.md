@@ -27,6 +27,7 @@ Whether you’re just starting your Neovim journey or looking for inspiration, t
    - [Step 4: Enable or Install a Coding Font (Optional but Recommended)](#-step-4-enable-or-install-a-coding-font-optional-but-recommended)
    - [Step 5: Install Ripgrep (Recommended for Search)](#-step-5-install-ripgrep-recommended-for-search)
    - [Step 6: Install Node (Recommended for Plugin Support)](#-step-6-install-node-recommended-for-plugin-support)
+   - [Step 7: Create the ~/.config/nvim Folder](#-step-7-create-the-config-nvim-folder)
 
 
 
@@ -213,12 +214,68 @@ v23.5.0  # Node.js version
 - Plugin Support: Many Neovim plugins, such as nvim-treesitter and Telescope, require Node.js for additional functionality.
 - Language Server Protocols (LSP): Install and configure LSP servers for languages like JavaScript, TypeScript, etc.
 
-Optional: Update npm
+**Optional: Update npm**
 
 Sometimes, the npm version installed with Node.js might be outdated. To update npm to the latest version, run:
 ```sh
 npm install -g npm
 ```
+
+### 📂 Step 7: Create the ~/.config/nvim Folder
+
+The `~/.config/nvim` directory is where Neovim stores its configuration files. By default: Use `init.vim` (or `init.lua` for Lua-based configurations) to define your custom settings and plugins. 💻
+
+1. 🚀 Open Terminal
+- Launch your terminal to start creating the configuration directory.
+
+2. 🏠 Navigate to Your Home Directory
+- Make sure you’re in your home directory by running:
+
+```sh
+cd ~
+```
+
+3. 📁 Create the .config Directory (if needed)
+
+Check if the .config directory exists:
+
+```sh
+ls -a
+```
+If it doesn’t exist, create it with:
+```sh
+mkdir .config
+```
+
+✅ Tip: The mkdir command is used to create new directories.
+
+4. ✨ Create the nvim Folder
+- Navigate to .config:
+```sh
+cd .config
+```
+
+Create the nvim folder:
+```sh
+mkdir nvim
+```
+
+5. ✅ Verify the Directory Structure
+- Run this command to confirm the folder was created:
+```sh
+ls ~/.config
+```
+- You should see nvim listed! 🎉
+
+🚀 Quick Setup Command
+
+For a one-liner setup:
+```sh
+mkdir -p ~/.config/nvim
+```
+
+The `-p` flag ensures that both .config and nvim are created if they don’t already exist. 🛡️
+
 
 My 
 ```sh
