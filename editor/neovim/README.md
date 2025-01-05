@@ -409,7 +409,9 @@ After adding the basic configuration in options.lua, ensure it is loaded by upda
 ```sh
 require("username.core.options")
 ```
-Explanation:
+
+##### Explanation:
+
 **`require`**:
 - This Lua function is used to load and execute the options.lua file as a module.
 
