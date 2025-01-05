@@ -6,15 +6,6 @@ I’m new to Neovim, and this configuration reflects my journey as a beginner. A
 
 Whether you’re just starting your Neovim journey or looking for inspiration, this guide is for you! Let’s dive in and build a Neovim setup you’ll love! 🚀
 
-## 📚 Table of Contents
-
-1. [Why Use This Guide?](#-why-use-this-guide)
-2. [Why Neovim?](#-why-neovim)
-3. [Installing Initial Tools](#installing-initial-tools)
-   - [Step 1: Install iTerm2 (Optional but Recommended)](#-step-1-install-iterm2-optional-but-recommended)
-   - [Step 2: Install Homebrew (If You Don’t Have It)](#-step-2-install-homebrew-if-you-dont-have-it)
-   - [Step 3: Install Neovim](#-step-3-install-neovim)
-
 #### 🌟 Why Use This Guide?
 - **Learn by Doing**: Understand the basics of configuring Neovim step by step.
 - **Modern Setup**: Includes plugins and tools to enhance productivity and coding experience.
@@ -25,6 +16,14 @@ Whether you’re just starting your Neovim journey or looking for inspiration, t
 - **Speed**: Lightweight and super fast.
 - **Power**: Packed with features for coding and productivity.
 - **Great for Beginners**: Start simple and build up as you learn.
+
+
+## 📚 Table of Contents
+
+1. [Installing Initial Tools](#installing-initial-tools)
+   - [Step 1: Install iTerm2 (Optional but Recommended)](#-step-1-install-iterm2-optional-but-recommended)
+   - [Step 2: Install Homebrew (If You Don’t Have It)](#-step-2-install-homebrew-if-you-dont-have-it)
+   - [Step 3: Install Neovim](#-step-3-install-neovim)
 
 
 ## Installing Initial Tools
