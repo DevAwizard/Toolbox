@@ -26,6 +26,8 @@ Whether you’re just starting your Neovim journey or looking for inspiration, t
    - [Step 3: Install Neovim](#-step-3-install-neovim)
    - [Step 4: Enable or Install a Coding Font (Optional but Recommended)](#-step-4-enable-or-install-a-coding-font-optional-but-recommended)
    - [Step 5: Install Ripgrep (Recommended for Search)](#-step-5-install-ripgrep-recommended-for-search)
+   - [Step 6: Install Node (Recommended for Plugin Support)](#-step-6-install-node-recommended-for-plugin-support)
+
 
 
 ## Installing Initial Tools
@@ -182,7 +184,7 @@ Why Ripgrep?
 - Speed: It’s significantly faster than traditional search tools like grep.
 - Integration: Many Neovim plugins, such as Telescope, rely on ripgrep for their search functionality.
 
-### 🛠 Step 6: Install node (Recommended for Plugin Support)
+### 🛠 Step 6: Install Node (Recommended for Plugin Support)
 
 Node.js is an essential dependency for many Neovim plugins, especially those using modern JavaScript tooling. It’s required for features like syntax highlighting (via Treesitter), language servers, and other powerful plugins.
 
