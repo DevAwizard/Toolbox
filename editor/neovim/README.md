@@ -8,8 +8,6 @@ Whether you’re just starting your Neovim journey or looking for inspiration, t
 
 ## 📚 Table of Contents
 
-## 📚 Table of Contents
-
 1. [Why Use This Guide?](#-why-use-this-guide)
 2. [Why Neovim?](#-why-neovim)
 3. [Installing Initial Tools](#installing-initial-tools)
