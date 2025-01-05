@@ -326,10 +326,10 @@ touch init.lua
 **2. lua/username/core**:
 - This folder is for core configuration files (e.g., key mappings, options, autocommands).
 
-3. **lua/username/plugins**:
+**3. lua/username/plugins**:
 - This folder is for plugin-specific configuration files.
 
-4. **plugin**:
+**4. plugin**:
 - This is used by Neovim to load custom plugins or runtime configurations.
 
 ##### 🎉 Final Check
