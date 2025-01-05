@@ -24,8 +24,7 @@ Whether you’re just starting your Neovim journey or looking for inspiration, t
    - [Step 1: Install iTerm2 (Optional but Recommended)](#-step-1-install-iterm2-optional-but-recommended)
    - [Step 2: Install Homebrew (If You Don’t Have It)](#-step-2-install-homebrew-if-you-dont-have-it)
    - [Step 3: Install Neovim](#-step-3-install-neovim)
-   - [Step 4: Enable or Install a Coding Font (Optional but Recommended)](#step-4-enable-or-install-a-coding-font-optional-but-Recommended)
-
+   - [Step 4: Enable or Install a Coding Font (Optional but Recommended)](#-step-4-enable-or-install-a-coding-font-optional-but-recommended)
 
 ## Installing Initial Tools
 
